@@ -11,7 +11,7 @@
 
 <br />
 
-#### Start development server
+#### Start development server:express
 
 ```
 yarn start:dev
@@ -19,8 +19,27 @@ yarn start:dev
 
 <br />
 
-#### Start production server
+#### Start production server:express
 
 ```
 yarn start
+```
+
+<br />
+
+#### Start development server:react
+
+```
+cd react-app
+yarn start
+```
+
+<br />
+
+#### Start production server:react
+
+```
+cd react-app
+yarn build
+serve -s build
 ```
